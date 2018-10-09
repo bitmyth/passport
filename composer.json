@@ -1,0 +1,26 @@
+{
+    "name": "bitmyth/passport",
+    "description": "Decorate laravel/passport",
+    "type": "library",
+    "require": {
+        "laravel/passport": "^6.0"
+    },
+    "authors": [
+        {
+            "name": "fish",
+            "email": "fishis@163.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Bitmyth\\Passport\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bitmyth\\Passport\\PassportServiceProvider"
+            ]
+        }
+    }
+}
